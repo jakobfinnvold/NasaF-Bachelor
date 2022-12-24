@@ -1,0 +1,197 @@
+Opened ST TOF Dev = 3
+Starting examples with ULD version VL53L5CX_1.3.0
+----------------------------------------------------------------------------------------------------------
+ VL53L5CX uld driver test example menu 
+ ------------------ Ranging menu ------------------
+ 1 : basic ranging
+ 2 : get and set params
+ 3 : change ranging mode
+ 4 : power down and up the device
+ 5 : multiple target per zone
+ 6 : I2C and  RAM optimization
+ 7 : (plugin) calibrate xtalk
+ 8 : (plugin) visualize xtalk calibration data
+ 9 : (plugin) detection thresholds - need to catch GPIO1 interrupt for this example
+ 10 : (plugin) motion indicator
+ 11 : (plugin) motion indicator with detection thresholds - need to catch GPIO1 interrupt for this example
+ 12 : exit
+----------------------------------------------------------------------------------------------------------
+Your choice ?
+ Starting Test 1
+VL53L5CX ULD ready ! (Version : VL53L5CX_1.3.0)
+Print data no :   0
+Zone :   0, Status : 255, Distance : 1072 mm
+Zone :   1, Status :   6, Distance : 1144 mm
+Zone :   2, Status :   6, Distance : 1157 mm
+Zone :   3, Status : 255, Distance : 1173 mm
+Zone :   4, Status : 255, Distance : 1033 mm
+Zone :   5, Status :   6, Distance : 1113 mm
+Zone :   6, Status :   6, Distance : 1114 mm
+Zone :   7, Status : 255, Distance : 1119 mm
+Zone :   8, Status :   6, Distance : 1057 mm
+Zone :   9, Status :   6, Distance : 1025 mm
+Zone :  10, Status :   6, Distance : 1005 mm
+Zone :  11, Status :   6, Distance : 1092 mm
+Zone :  12, Status :   6, Distance :  569 mm
+Zone :  13, Status :   6, Distance :  985 mm
+Zone :  14, Status :   6, Distance :  944 mm
+Zone :  15, Status :   6, Distance :  572 mm
+
+Print data no :   1
+Zone :   0, Status : 255, Distance : 1063 mm
+Zone :   1, Status :   5, Distance : 1155 mm
+Zone :   2, Status :   5, Distance : 1175 mm
+Zone :   3, Status : 255, Distance : 1146 mm
+Zone :   4, Status : 255, Distance : 1035 mm
+Zone :   5, Status :   5, Distance : 1109 mm
+Zone :   6, Status :   5, Distance : 1110 mm
+Zone :   7, Status :   5, Distance : 1095 mm
+Zone :   8, Status : 255, Distance : 1051 mm
+Zone :   9, Status :   5, Distance : 1021 mm
+Zone :  10, Status :   5, Distance : 1002 mm
+Zone :  11, Status :   5, Distance : 1050 mm
+Zone :  12, Status :   5, Distance :  541 mm
+Zone :  13, Status :   5, Distance :  978 mm
+Zone :  14, Status :   5, Distance :  945 mm
+Zone :  15, Status :   5, Distance :  557 mm
+
+Print data no :   2
+Zone :   0, Status : 255, Distance : 1050 mm
+Zone :   1, Status :   5, Distance : 1152 mm
+Zone :   2, Status :   5, Distance : 1124 mm
+Zone :   3, Status : 255, Distance : 1126 mm
+Zone :   4, Status : 255, Distance : 1060 mm
+Zone :   5, Status :   5, Distance : 1110 mm
+Zone :   6, Status :   5, Distance : 1116 mm
+Zone :   7, Status :   5, Distance : 1102 mm
+Zone :   8, Status : 255, Distance :  989 mm
+Zone :   9, Status :   5, Distance : 1019 mm
+Zone :  10, Status :   5, Distance : 1001 mm
+Zone :  11, Status :   5, Distance : 1079 mm
+Zone :  12, Status :   9, Distance :  558 mm
+Zone :  13, Status :   5, Distance :  954 mm
+Zone :  14, Status :   5, Distance :  955 mm
+Zone :  15, Status :   5, Distance :  548 mm
+
+Print data no :   3
+Zone :   0, Status : 255, Distance : 1045 mm
+Zone :   1, Status :   5, Distance : 1162 mm
+Zone :   2, Status :   5, Distance : 1143 mm
+Zone :   3, Status : 255, Distance : 1137 mm
+Zone :   4, Status : 255, Distance : 1034 mm
+Zone :   5, Status :   5, Distance : 1101 mm
+Zone :   6, Status :   5, Distance : 1104 mm
+Zone :   7, Status :   5, Distance : 1108 mm
+Zone :   8, Status : 255, Distance : 1056 mm
+Zone :   9, Status :   5, Distance : 1021 mm
+Zone :  10, Status :   5, Distance : 1001 mm
+Zone :  11, Status :   5, Distance : 1088 mm
+Zone :  12, Status :   5, Distance :  563 mm
+Zone :  13, Status :   5, Distance :  977 mm
+Zone :  14, Status :   5, Distance :  950 mm
+Zone :  15, Status :   5, Distance :  564 mm
+
+Print data no :   4
+Zone :   0, Status : 255, Distance : 1045 mm
+Zone :   1, Status :   5, Distance : 1151 mm
+Zone :   2, Status :   5, Distance : 1156 mm
+Zone :   3, Status :   5, Distance : 1142 mm
+Zone :   4, Status : 255, Distance : 1060 mm
+Zone :   5, Status :   5, Distance : 1107 mm
+Zone :   6, Status :   5, Distance : 1105 mm
+Zone :   7, Status : 255, Distance : 1115 mm
+Zone :   8, Status : 255, Distance : 1066 mm
+Zone :   9, Status :   5, Distance : 1018 mm
+Zone :  10, Status :   5, Distance : 1001 mm
+Zone :  11, Status :   5, Distance : 1080 mm
+Zone :  12, Status :   5, Distance :  552 mm
+Zone :  13, Status :   5, Distance :  957 mm
+Zone :  14, Status :   5, Distance :  950 mm
+Zone :  15, Status :   5, Distance :  563 mm
+
+Print data no :   5
+Zone :   0, Status : 255, Distance : 1045 mm
+Zone :   1, Status :   5, Distance : 1141 mm
+Zone :   2, Status :   5, Distance : 1150 mm
+Zone :   3, Status : 255, Distance : 1141 mm
+Zone :   4, Status : 255, Distance : 1058 mm
+Zone :   5, Status :   5, Distance : 1121 mm
+Zone :   6, Status :   5, Distance : 1119 mm
+Zone :   7, Status : 255, Distance : 1103 mm
+Zone :   8, Status :   5, Distance : 1078 mm
+Zone :   9, Status :   5, Distance : 1017 mm
+Zone :  10, Status :   5, Distance :  999 mm
+Zone :  11, Status :   5, Distance : 1085 mm
+Zone :  12, Status :   5, Distance :  524 mm
+Zone :  13, Status :   5, Distance :  967 mm
+Zone :  14, Status :   5, Distance :  961 mm
+Zone :  15, Status :   5, Distance :  550 mm
+
+Print data no :   6
+Zone :   0, Status : 255, Distance : 1076 mm
+Zone :   1, Status :   5, Distance : 1133 mm
+Zone :   2, Status :   5, Distance : 1149 mm
+Zone :   3, Status : 255, Distance : 1122 mm
+Zone :   4, Status : 255, Distance : 1034 mm
+Zone :   5, Status :   5, Distance : 1097 mm
+Zone :   6, Status :   5, Distance : 1131 mm
+Zone :   7, Status :   5, Distance : 1091 mm
+Zone :   8, Status :   5, Distance : 1020 mm
+Zone :   9, Status :   5, Distance : 1020 mm
+Zone :  10, Status :   5, Distance :  998 mm
+Zone :  11, Status :   5, Distance : 1085 mm
+Zone :  12, Status :   5, Distance :  551 mm
+Zone :  13, Status :   5, Distance :  961 mm
+Zone :  14, Status :   5, Distance :  946 mm
+Zone :  15, Status :   5, Distance :  569 mm
+
+Print data no :   7
+Zone :   0, Status : 255, Distance : 1076 mm
+Zone :   1, Status :   5, Distance : 1131 mm
+Zone :   2, Status :   5, Distance : 1136 mm
+Zone :   3, Status : 255, Distance : 1122 mm
+Zone :   4, Status : 255, Distance : 1023 mm
+Zone :   5, Status :   5, Distance : 1130 mm
+Zone :   6, Status :   5, Distance : 1115 mm
+Zone :   7, Status : 255, Distance : 1088 mm
+Zone :   8, Status :   5, Distance :  999 mm
+Zone :   9, Status :   5, Distance : 1014 mm
+Zone :  10, Status :   5, Distance : 1009 mm
+Zone :  11, Status :   5, Distance : 1075 mm
+Zone :  12, Status :   5, Distance :  572 mm
+Zone :  13, Status :   5, Distance :  978 mm
+Zone :  14, Status :   5, Distance :  945 mm
+Zone :  15, Status :   5, Distance :  592 mm
+
+Print data no :   8
+Zone :   0, Status : 255, Distance : 1076 mm
+Zone :   1, Status :   5, Distance : 1143 mm
+Zone :   2, Status :   5, Distance : 1156 mm
+Zone :   3, Status :  10, Distance : 1118 mm
+Zone :   4, Status : 255, Distance : 1118 mm
+Zone :   5, Status :   5, Distance : 1114 mm
+Zone :   6, Status :   5, Distance : 1089 mm
+Zone :   7, Status :   5, Distance : 1085 mm
+Zone :   8, Status : 255, Distance : 1031 mm
+Zone :   9, Status :   5, Distance : 1027 mm
+Zone :  10, Status :   5, Distance : 1003 mm
+Zone :  11, Status :   5, Distance : 1090 mm
+Zone :  12, Status :   5, Distance :  565 mm
+Zone :  13, Status :   5, Distance :  970 mm
+Zone :  14, Status :   5, Distance :  950 mm
+Zone :  15, Status :   5, Distance :  563 mm
+
+Print data no :   9
+Zone :   0, Status : 255, Distance : 1017 mm
+Zone :   1, Status :   5, Distance : 1141 mm
+Zone :   2, Status :   5, Distance : 1163 mm
+Zone :   3, Status : 255, Distance : 1058 mm
+Zone :   4, Status : 255, Distance : 1008 mm
+Zone :   5, Status :   5, Distance : 1121 mm
+Zone :   6, Status :   5, Distance : 1125 mm
+Zone :   7, Status : 255, Distance : 1116 mm
+Zone :   8, Status :   5, Distance : 1074 mm
+Zone :   9, Status :   5, Distance : 1023 mm
+Zone :  10, Status :   5, Distance :  999 mm
+Zone :  11, Status :   5, Distance : 1087 mm
+Zone :  12, Status :   5, Distan
